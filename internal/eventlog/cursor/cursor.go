@@ -21,7 +21,7 @@ type Source struct {
 	Counter int64
 }
 
-func (s Source) timeIndex() int64 {
+func (s *Source) timeIndex() int64 {
 	if s.TimeIndex == nil {
 		return time.Now().UnixNano()
 	}

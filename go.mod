@@ -35,9 +35,12 @@ require (
 	golang.org/x/net v0.0.0-20211208012354-db4efeb81f4b
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
 	google.golang.org/grpc v1.44.0
+	golang.org/x/tools v0.1.9-0.20211228192929-ee1ca4ffc4da
 	gopkg.in/check.v1 v1.0.0-20200902074654-038fdea0a05b // indirect
 	pgregory.net/rapid v0.4.7
 )
+
+require github.com/google/go-cmp v0.5.6
 
 require (
 	4d63.com/gochecknoglobals v0.1.0 // indirect
@@ -77,9 +80,9 @@ require (
 	github.com/dustin/go-humanize v1.0.0 // indirect
 	github.com/esimonov/ifshort v1.0.4 // indirect
 	github.com/ettle/strcase v0.1.1 // indirect
-	github.com/facebookgo/ensure v0.0.0-20160127193407-b4ab57deab51 // indirect
+	github.com/facebookgo/ensure v0.0.0-20200202191622-63f1cf65ac4c // indirect
 	github.com/facebookgo/stack v0.0.0-20160209184415-751773369052 // indirect
-	github.com/facebookgo/subset v0.0.0-20150612182917-8dac2c3c4870 // indirect
+	github.com/facebookgo/subset v0.0.0-20200203212716-c811ad88dec4 // indirect
 	github.com/fatih/color v1.13.0 // indirect
 	github.com/fatih/structtag v1.2.0 // indirect
 	github.com/fsnotify/fsnotify v1.5.1 // indirect
